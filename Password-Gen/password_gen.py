@@ -7,12 +7,9 @@ import pyperclip
 import sys
 import os
 
-os.chdir(sys._MEIPASS)  # This line makes sure that the program can find non python files
-
 class DevNull:
     def write(self, msg):
         pass
-
 
 #sys.stderr = DevNull()  # Supresses error messages
 
